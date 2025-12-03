@@ -1,6 +1,7 @@
 # Development image with all the Node.js stuff in it
 FROM node:8.15.0
 
+# Install Google Chrome
 # Set working directory, will be created if it does not exist
 WORKDIR /usr/src/app
 

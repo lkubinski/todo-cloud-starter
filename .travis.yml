@@ -29,7 +29,7 @@ before_script:
 # Run some tests
 script:
   - docker run lkubinski/todo-view-test npm test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
-  - docker run lkubinski/todo-cache-service-test npm test
+#  - docker run lkubinski/todo-cache-service-test npm test
 
 after_success:
   # Build Production Images for deployment

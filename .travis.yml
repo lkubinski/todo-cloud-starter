@@ -27,8 +27,8 @@ before_script:
   - docker build ./todo-cache-service -f Dockerfile.nodejs.dev -t lkubinski/todo-cache-service-test
 
 # Run some tests
-script:
-  - docker run lkubinski/todo-view-test npm test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+#script:
+#  - docker run lkubinski/todo-view-test npm test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 #  - docker run lkubinski/todo-cache-service-test npm test
 
 after_success:

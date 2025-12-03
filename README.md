@@ -1,3 +1,3 @@
 # My Todo Cloud App
 
-https://app.travis-ci.com/lkubinski/todo-cloud-starter.svg?token=NVs3qsMqPJDRMBkB6prn&branch=main
+[![Build Status](https://app.travis-ci.com/lkubinski/todo-cloud-starter.svg?token=NVs3qsMqPJDRMBkB6prn&branch=main)](https://app.travis-ci.com/lkubinski/todo-cloud-starter)
